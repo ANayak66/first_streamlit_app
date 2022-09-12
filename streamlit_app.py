@@ -30,7 +30,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 streamlit.write('The user entered ', fruit_choice)
 
-add_my_fruit = streamlit.text_input('What fruit would you like information about?','jackfruit')
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
 streamlit.write("Thanks for adding jackfruit")
 
 import requests
